@@ -1,0 +1,13 @@
+import subprocess
+result = subprocess.run(['pip3', 'freeze'], capture_output=True, text=True)
+
+# Filter to just the packages we actually used
+packages = [
+    line for line in result.stdout.split('\n')
+    if any(pkg in line.lower() for pkg in ['anthropic', 'google', 'pandas', 'matplotlib', 'python-dotenv', 'jupyter', 'ipykernel'])
+]
+
+with open('requirements.txt', 'w') as f:
+    f.write('\n'.join(packages))
+
+print('\n'.join(packages))
