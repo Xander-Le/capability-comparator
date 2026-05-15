@@ -1,0 +1,142 @@
+[
+  {
+    "id": "doc_001",
+    "text": "Please arrange a wire transfer in the amount of $175,000.00 USD to Meridian Capital Partners LLC. Receiving institution: Coastal Commercial Bank, ABA 021000021. Beneficiary account number: 8834521097. Reference: Q3 advisory retainer -- Contract 2024-0418. Please process for same-day value. Authorized by: Sarah Chen, CFO.",
+    "ground_truth": {
+      "beneficiary_name": "Meridian Capital Partners LLC",
+      "beneficiary_account_number": "8834521097",
+      "receiving_bank_routing_number": "021000021",
+      "amount": "175000.00",
+      "currency": "USD",
+      "payment_reference": "Q3 advisory retainer -- Contract 2024-0418",
+      "originator_name": null,
+      "value_date": null
+    }
+  },
+  {
+    "id": "doc_002",
+    "text": "Wire transfer request: Please send $52,500.00 to Apex Solutions Inc. Bank: First National Bank of Texas, routing number 111000025, account 3312908876. Memo: Invoice 8821 payment. Value date: 2026-05-20. From: Xander Holdings LLC.",
+    "ground_truth": {
+      "beneficiary_name": "Apex Solutions Inc",
+      "beneficiary_account_number": "3312908876",
+      "receiving_bank_routing_number": "111000025",
+      "amount": "52500.00",
+      "currency": "USD",
+      "payment_reference": "Invoice 8821 payment",
+      "originator_name": "Xander Holdings LLC",
+      "value_date": "2026-05-20"
+    }
+  },
+  {
+    "id": "doc_003",
+    "text": "Kindly initiate a wire for $1,200,000.00 USD. Beneficiary: Northgate Real Estate Fund II LP, account number 9901234567, at Pacific Rim Bank, ABA routing 322070381. For: Closing proceeds -- 4521 Oak Street transaction.",
+    "ground_truth": {
+      "beneficiary_name": "Northgate Real Estate Fund II LP",
+      "beneficiary_account_number": "9901234567",
+      "receiving_bank_routing_number": "322070381",
+      "amount": "1200000.00",
+      "currency": "USD",
+      "payment_reference": "Closing proceeds -- 4521 Oak Street transaction",
+      "originator_name": null,
+      "value_date": null
+    }
+  },
+  {
+    "id": "doc_004",
+    "text": "Please wire $8,750.00 USD to Dr. Patricia Nguyen, account 445521089 at Westside Credit Union, ABA 307070005. Reference: Consulting fee October. Originator: Blueridge Ventures LLC. Settlement requested for 2026-05-16.",
+    "ground_truth": {
+      "beneficiary_name": "Dr. Patricia Nguyen",
+      "beneficiary_account_number": "445521089",
+      "receiving_bank_routing_number": "307070005",
+      "amount": "8750.00",
+      "currency": "USD",
+      "payment_reference": "Consulting fee October",
+      "originator_name": "Blueridge Ventures LLC",
+      "value_date": "2026-05-16"
+    }
+  },
+  {
+    "id": "doc_005",
+    "text": "Wire instructions: Beneficiary: Summit Infrastructure Group, ABA 026009593, account number 7723401188, JP Morgan Chase. Amount: $330,000.00. Memo: Phase 2 construction drawdown. Same day please.",
+    "ground_truth": {
+      "beneficiary_name": "Summit Infrastructure Group",
+      "beneficiary_account_number": "7723401188",
+      "receiving_bank_routing_number": "026009593",
+      "amount": "330000.00",
+      "currency": "USD",
+      "payment_reference": "Phase 2 construction drawdown",
+      "originator_name": null,
+      "value_date": null
+    }
+  },
+  {
+    "id": "doc_006",
+    "text": "Please send two hundred fifty thousand dollars to Lakewood Asset Management LLC. Their bank is Canyon State Bank, routing 122105155, account 6612309900. For: Q4 management fee.",
+    "ground_truth": {
+      "beneficiary_name": "Lakewood Asset Management LLC",
+      "beneficiary_account_number": "6612309900",
+      "receiving_bank_routing_number": "122105155",
+      "amount": "250000.00",
+      "currency": "USD",
+      "payment_reference": "Q4 management fee",
+      "originator_name": null,
+      "value_date": null
+    }
+  },
+  {
+    "id": "doc_007",
+    "text": "Wire request for $45,000.00 USD to Ironclad Legal Services LLP at Harbor Bank. Memo: Retainer replenishment -- Matter 2024-119.",
+    "ground_truth": {
+      "beneficiary_name": "Ironclad Legal Services LLP",
+      "beneficiary_account_number": null,
+      "receiving_bank_routing_number": null,
+      "amount": "45000.00",
+      "currency": "USD",
+      "payment_reference": "Retainer replenishment -- Matter 2024-119",
+      "originator_name": null,
+      "value_date": null
+    }
+  },
+  {
+    "id": "doc_008",
+    "text": "Please process the following outgoing wire: Pay to Delray Shipping Partners Inc, $19,200.00, First Commerce Bank routing 053000196 account 2281445566. Originator: Gulf Coast Trading Co. Reference: BOL-2026-0442.",
+    "ground_truth": {
+      "beneficiary_name": "Delray Shipping Partners Inc",
+      "beneficiary_account_number": "2281445566",
+      "receiving_bank_routing_number": "053000196",
+      "amount": "19200.00",
+      "currency": "USD",
+      "payment_reference": "BOL-2026-0442",
+      "originator_name": "Gulf Coast Trading Co",
+      "value_date": null
+    }
+  },
+  {
+    "id": "doc_009",
+    "text": "Transfer request: $500,000.00 USD equivalent in EUR at current spot rate to European Growth Holdings GmbH. Receiving bank: Deutsche Handelsbank, IBAN DE89370400440532013000, BIC COBADEFFXXX. Reference: Cross-border investment tranche 3.",
+    "ground_truth": {
+      "beneficiary_name": "European Growth Holdings GmbH",
+      "beneficiary_account_number": "DE89370400440532013000",
+      "receiving_bank_routing_number": null,
+      "amount": "500000.00",
+      "currency": "EUR",
+      "payment_reference": "Cross-border investment tranche 3",
+      "originator_name": null,
+      "value_date": null
+    }
+  },
+  {
+    "id": "doc_010",
+    "text": "Urgent wire needed ASAP. Send funds to our vendor. They are at Midtown Bank. Please confirm when done.",
+    "ground_truth": {
+      "beneficiary_name": null,
+      "beneficiary_account_number": null,
+      "receiving_bank_routing_number": null,
+      "amount": null,
+      "currency": null,
+      "payment_reference": null,
+      "originator_name": null,
+      "value_date": null
+    }
+  }
+]
