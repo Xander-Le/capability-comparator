@@ -29,3 +29,9 @@ latency, and significantly lower cost with negligible accuracy trade-off.
 [Full analysis](recommendation_memo.md)
 
 ## How to run
+
+1. Clone the repo
+2. Install dependencies
+3. Add your API keys — create a `.env` file in the project folder:
+4. Launch JupyterLab
+5. Open `capability_comparator.ipynb` and run all cells in order
